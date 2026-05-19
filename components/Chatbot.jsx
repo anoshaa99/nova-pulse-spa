@@ -113,9 +113,6 @@ export default function Chatbot() {
       >
         {messages.length === 0 && !loading && (
           <article className="msg msg--bot">
-            <div className="msg-avatar" aria-hidden="true">
-              NP
-            </div>
             <div className="msg-body">
               <span className="msg-label">NovaPulse</span>
               <p>{WELCOME}</p>

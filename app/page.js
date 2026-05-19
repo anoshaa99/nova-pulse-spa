@@ -5,9 +5,6 @@ export default function Home() {
     <div className="shell">
       <aside className="sidebar">
         <div className="sidebar-inner">
-          <div className="logo-badge" aria-hidden="true">
-            <span>NP</span>
-          </div>
           <h1 className="app-title">
             Nova<span>Pulse</span>
           </h1>
